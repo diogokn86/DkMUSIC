@@ -704,4 +704,8 @@
       flex-direction: column;
       padding-left: 10%;
     }
+
+    .feature-text-content p h3 {
+      margin-bottom: 400px;
+    }
   }
