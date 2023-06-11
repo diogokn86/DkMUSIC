@@ -302,9 +302,12 @@
     position: absolute;
     left:-13%;
     top:10%;
-    
-     
-}
+  }
+  
+ .comprar {
+    text-decoration: none;
+    color: inherit;
+ }
   
   .left {
     position: relative;
@@ -338,8 +341,17 @@
     text-align: right;
     color: rgba(0, 0, 0, 0.4);
   }
+
+  .ancora-acessorios {
+    text-decoration: none;
+    color: #212120;
+  }
+
+  .ancora-acessorios:hover {
+    color: var(--laranja);
+  }
+
   
- 
   /* Footer */
   footer {
     width: 100%;

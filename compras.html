@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Compras</title>
+    <style>
+
+    .about {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 10px;
+  }
+  
+  .about-content {
+    max-width: 1000px;
+    min-width: 300px;
+    height: 600px;
+    background: #dedede3b;
+    margin: 0 auto;
+    border-radius: 8px;
+    z-index: 10;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  #about-img {
+    width: 170%;
+    position: absolute;
+    left:-39%;
+    top:-00%;
+}
+  
+  .left {
+    position: relative;
+    width: 25%;
+    min-width: 300px;
+    height: 100%;
+    background:#212120;
+    border-radius: 8px;
+  }
+  
+  .right {
+    width: 65%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-top: 10%;
+  }
+  
+  .right h3 {
+    text-align: right;
+    width: 90%;
+    margin-bottom: 20px;
+  }
+  
+  .right p {
+    max-width: 90%;
+    font-size: 1em;
+    letter-spacing: 2px;
+    text-align: right;
+    color: rgba(0, 0, 0, 0.4);
+  }
+  
+  
+  @media (max-width: 727px) {
+  
+
+  .about-content {
+      flex-direction: column;
+      height: 100%;
+    }
+    .left {
+      display: none;
+    }
+    .right {
+      width: 90%;
+    }
+  
+    .right p {
+      width: 100%;
+      margin: 0px;
+      text-align: left;
+    }
+  }
+
+    </style>
+</head>
+<body>
+    <section class="about" id="about">
+        <div class="content">
+          <div class="title-wrapper-about">
+            <h3>ENTÃO MEU QUERIDO(A)...</h3>
+          </div>
+          <div class="about-content">
+            <div class="left">
+              <img id="about-img" src="imagens/extra.png" alt="About" />
+            </div>
+            <div class="right">
+              <h3>INFELIZMENTE A <span id="dk2">Dk</span><span id="dk3">MUSIC</span> É UMA EMPRESA FICTÍCIA.</h3>
+              <p>
+                Precisamos admitir uma verdade aqui: o nosso site de compras é, na verdade, apenas parte dos meus estudos! Nem tenho dinheiro pra isso. Ele foi criado como parte dos nossos estudos para entender o mundo virtual de forma divertida e casual. Então, pedimos desculpas se você estava esperando fazer compras reais por aqui!
+
+Nós entendemos que você pode estar se perguntando: "O que diabos está acontecendo?". Bem, a resposta é simples: mergulhamos de cabeça nessa loucura científica e acabamos criando um site que não vende nada além de diversão e conhecimento imaginários.
+Lamentamos se essa experiência não atendeu às suas expectativas de compras, mas esperamos que você possa aproveitar essa jornada de aprendizado peculiar e nos perdoar por nossa falta de produtos reais.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+</body>
+</html>
