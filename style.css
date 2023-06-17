@@ -352,6 +352,8 @@
   }
 
   
+
+  
   /* Footer */
   footer {
     width: 100%;
@@ -399,7 +401,7 @@
   footer .last {
     width: 100%;
     height: 50px;
-    background: var(--blue);
+    background: var(--preto);
     color: white;
     display: flex;
     align-items: center;
